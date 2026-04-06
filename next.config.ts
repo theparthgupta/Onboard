@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ['@langchain/langgraph', '@langchain/core', '@octokit/rest'],
 };
 
 export default nextConfig;
