@@ -16,26 +16,25 @@ export async function Navbar() {
             </svg>
           </div>
           <span className="text-sm font-semibold text-[#f0f0f0] tracking-tight">Onboard</span>
-          <span className="hidden sm:block text-xs text-[#444] font-normal">by Auth0</span>
         </Link>
 
         {/* Nav links */}
         <div className="flex items-center gap-0.5">
           <Link
             href="/dashboard"
-            className="px-3 py-1.5 text-sm text-[#666] hover:text-[#f0f0f0] hover:bg-[#1a1a1a] rounded-lg transition-all duration-150"
+            className="hidden sm:block px-3 py-1.5 text-sm text-[#666] hover:text-[#f0f0f0] hover:bg-[#1a1a1a] rounded-lg transition-all duration-150"
           >
             Dashboard
           </Link>
           <Link
             href="/dashboard/accounts"
-            className="px-3 py-1.5 text-sm text-[#666] hover:text-[#f0f0f0] hover:bg-[#1a1a1a] rounded-lg transition-all duration-150"
+            className="hidden sm:block px-3 py-1.5 text-sm text-[#666] hover:text-[#f0f0f0] hover:bg-[#1a1a1a] rounded-lg transition-all duration-150"
           >
             Accounts
           </Link>
           <Link
             href="/onboard/new"
-            className="ml-1 px-3.5 py-1.5 text-sm bg-white text-black hover:bg-[#e8e8e8] rounded-lg transition-all duration-150 font-medium"
+            className="ml-1 px-3.5 py-1.5 text-sm bg-white text-black hover:bg-[#e8e8e8] rounded-lg transition-all duration-150 font-medium whitespace-nowrap"
           >
             + New Hire
           </Link>

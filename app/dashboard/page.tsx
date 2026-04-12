@@ -14,14 +14,14 @@ export default async function DashboardPage() {
       <Navbar />
       <main className="max-w-6xl mx-auto px-5 py-10">
         {/* Header */}
-        <div className="flex items-start justify-between gap-4 mb-8">
+        <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 mb-8">
           <div>
             <h1 className="text-lg font-semibold text-[#f0f0f0] tracking-tight">Onboarding Jobs</h1>
-            <p className="text-sm text-[#444] mt-0.5">Automated developer provisioning across all platforms.</p>
+            <p className="text-sm text-[#444] mt-0.5">Automated provisioning across all platforms.</p>
           </div>
           <Link
             href="/onboard/new"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-white text-black text-sm font-medium rounded-lg hover:bg-[#e8e8e8] active:scale-[0.98] transition-all duration-150"
+            className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-white text-black text-sm font-medium rounded-lg hover:bg-[#e8e8e8] active:scale-[0.98] transition-all duration-150 whitespace-nowrap sm:flex-shrink-0"
           >
             + New Hire
           </Link>

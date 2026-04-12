@@ -268,11 +268,11 @@ export function NewHireForm() {
         </div>
       )}
 
-      <div className="flex items-center justify-between pt-1">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pt-1">
         <p className="text-xs text-[#333]">
           All credentials are scoped via Auth0 Token Vault.
         </p>
-        <Button type="submit" loading={submitting} size="lg">
+        <Button type="submit" loading={submitting} size="lg" className="w-full sm:w-auto">
           <UserPlus size={15} />
           {submitting ? 'Starting…' : 'Start Onboarding'}
         </Button>
