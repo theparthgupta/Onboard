@@ -55,7 +55,6 @@ export default async function Home() {
               </svg>
             </div>
             <span className="text-sm font-semibold tracking-tight">Onboard</span>
-            <span className="text-xs text-[#333]">by Auth0</span>
           </div>
           <a
             href="/auth/login"
@@ -69,17 +68,22 @@ export default async function Home() {
       {/* ── Hero ────────────────────────────────────────────────────────── */}
       <section className="relative z-10 flex flex-col items-center justify-center text-center px-5 pt-24 pb-20">
         <div className="inline-flex items-center gap-2 mb-8">
-          <Tag><Sparkles size={10} /> Auth0 &quot;Authorized to Act&quot; Hackathon</Tag>
           <Tag><Shield size={10} /> Token Vault + CIBA</Tag>
+          <Tag><Cpu size={10} /> GPT-4o-mini</Tag>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.05] mb-6 max-w-4xl">
-          Developer onboarding
+        <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.05] mb-4 max-w-4xl">
+          Onboarding
           <br />
           <span className="text-[#333]">on autopilot.</span>
         </h1>
 
-        <p className="text-base md:text-lg text-[#555] max-w-2xl leading-relaxed mb-10">
+        <p className="text-base md:text-xl text-[#444] max-w-xl leading-relaxed mb-8 font-medium">
+          <span className="line-through text-[#333]">Day two. Still waiting on access.</span>
+          {' '}<span className="text-white">Done.</span>
+        </p>
+
+        <p className="text-sm md:text-base text-[#555] max-w-2xl leading-relaxed mb-10">
           A multi-agent AI system that provisions every new hire across GitHub, Slack, Gmail and Google Calendar
           in under two minutes — with scoped credentials, human-in-the-loop approvals, and a complete audit trail.
         </p>
@@ -394,7 +398,7 @@ export default async function Home() {
             Ready to onboard in 2 minutes?
           </h2>
           <p className="text-[#555] text-sm max-w-lg mx-auto mb-8 leading-relaxed">
-            Sign in with Auth0 and provision your first developer across GitHub, Slack, Gmail, and Calendar — fully automated, fully audited.
+            Sign in and provision your first new hire across GitHub, Slack, Gmail, and Calendar — fully automated, fully audited.
           </p>
           <a
             href="/auth/login"
@@ -417,7 +421,7 @@ export default async function Home() {
             <span className="text-xs font-semibold">Onboard</span>
           </div>
           <p className="text-[11px] text-[#333] text-center">
-            Built for the Auth0 &ldquo;Authorized to Act&rdquo; hackathon · Token Vault + CIBA + LangGraph + GPT-4o-mini
+            Token Vault · CIBA · LangGraph · GPT-4o-mini
           </p>
           <div className="flex items-center gap-3 text-[11px] text-[#333]">
             <span>Next.js 16</span>
