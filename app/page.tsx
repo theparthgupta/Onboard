@@ -69,7 +69,6 @@ export default async function Home() {
       <section className="relative z-10 flex flex-col items-center justify-center text-center px-5 pt-24 pb-20">
         <div className="inline-flex items-center gap-2 mb-8">
           <Tag><Shield size={10} /> Token Vault + CIBA</Tag>
-          <Tag><Cpu size={10} /> GPT-4o-mini</Tag>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.05] mb-4 max-w-4xl">
@@ -110,7 +109,6 @@ export default async function Home() {
             { icon: MessageSquare, label: 'Slack' },
             { icon: Mail, label: 'Gmail' },
             { icon: CalendarDays, label: 'Calendar' },
-            { icon: Cpu, label: 'GPT-4o-mini' },
             { icon: ShieldCheck, label: 'Token Vault' },
             { icon: Clock, label: 'CIBA' },
           ].map(({ icon: Icon, label }) => (
